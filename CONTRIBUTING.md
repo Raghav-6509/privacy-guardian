@@ -6,7 +6,7 @@ Thank you for your interest in contributing to Privacy Guardian! This project wa
 
 This project was initially developed by:
 - **Raghav** - Main developer and project architecture
-- **CKhurana13** - Frontend development and dashboard design with its implementation
+- **CKhurana13** - Frontend development and its implementation.
 
 We welcome new contributors to join our team!
 

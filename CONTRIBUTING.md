@@ -1,6 +1,14 @@
 # Contributing to Privacy Guardian
 
-Thank you for your interest in contributing to Privacy Guardian! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to Privacy Guardian! This project was originally developed as a collaborative effort and we welcome additional contributors.
+
+## 👥 Project Team
+
+This project was initially developed by:
+- **Raghav** - Main developer and project architecture
+- **[Group Member's Name]** - [Specify their contributions]
+
+We welcome new contributors to join our team!
 
 ## 🚀 Getting Started
 

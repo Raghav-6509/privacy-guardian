@@ -190,7 +190,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 This project was developed by:
 
 - **Raghav** - [GitHub Profile](https://github.com/Raghav-6509) - Main developer and project lead
-- **[Your Group Member's Name]** - [GitHub Profile](https://github.com/your-group-member) - [Specify their contributions, e.g., Frontend development, Testing, Documentation]
+- **CKhurana13** - [GitHub Profile](https://github.com/CKhurana13) - [Specify their contributions, e.g., Frontend development, Testing, Documentation]
 
 ## 🙏 Acknowledgments
 

@@ -185,6 +185,13 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 👥 Contributors
+
+This project was developed by:
+
+- **Raghav** - [GitHub Profile](https://github.com/Raghav-6509) - Main developer and project lead
+- **[Your Group Member's Name]** - [GitHub Profile](https://github.com/your-group-member) - [Specify their contributions, e.g., Frontend development, Testing, Documentation]
+
 ## 🙏 Acknowledgments
 
 - Hugging Face for providing the AI model

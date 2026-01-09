@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Privacy Guardian</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🔒 Privacy Guardian</h1>
+      <div class="button-group">
+        <button id="scanAllTabsButton">Scan All Tabs</button>
+        <button id="testButton" style="background: #6b7280; font-size: 10px;">Test Connection</button>
+      </div>
+
+      <div id="allTabsResults" class="hidden">
+        <div class="info-box"><strong>Total Tabs Scanned:</strong> <span id="totalTabs"></span></div>
+        <div class="info-box"><strong>Overall Privacy Score:</strong> <span id="overallScore"></span></div>
+        <div class="info-box"><strong>Total Cookies:</strong> <span id="totalCookies"></span></div>
+        <div class="info-box"><strong>Total Trackers:</strong> <span id="totalTrackers"></span></div>
+        <div class="info-box"><strong>Total Permissions:</strong> <span id="totalPermissions"></span></div>
+        <div class="advice-box">
+          <strong>AI Advice:</strong>
+          <ul id="overallAdviceList"></ul>
+        </div>
+        
+        <!-- Privacy Action Center -->
+        <div class="action-center">
+          <h3>🛠️ Privacy Action Center</h3>
+          <div class="action-buttons">
+            <button id="clearCookiesBtn" class="action-btn">🧹 Clear Cookies</button>
+            <button id="blockTrackersBtn" class="action-btn">🚫 Block Trackers</button>
+            <button id="optimizeBtn" class="action-btn">⚡ Optimize Settings</button>
+          </div>
+          <div id="actionStatus" class="action-status"></div>
+        </div>
+        
+        <a id="openAllTabsWeb" href="#" target="_blank">View Comprehensive Report</a>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

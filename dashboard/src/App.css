@@ -1,0 +1,124 @@
+/* Page + center */
+.page {
+  background: #f3f6fb;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  color: #0f172a;
+}
+
+/* Card centered like extension */
+.center-card {
+  width: 760px;
+  max-width: 100%;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* large title/logo */
+.logo {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 6px;
+}
+.center-card h1 {
+  margin: 0 0 16px 0;
+  font-size: 26px;
+}
+
+/* main scan card */
+.scan-card {
+  width: 100%;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* big blue button look (disabled just for visual consistency) */
+.scan-btn {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  padding: 14px 18px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  width: 100%;
+  cursor: default;
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.15);
+}
+
+/* small cards container */
+.info-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+/* each info card */
+.info-card {
+  background: #fff;
+  padding: 14px 16px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(14, 20, 30, 0.06);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+
+/* value inside card */
+.info-value {
+  font-weight: 600;
+  font-size: 15px;
+  color: #111827;
+}
+
+/* advice card */
+.advice-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(14, 20, 30, 0.06);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* advice text */
+.advice-text {
+  margin-top: 8px;
+  color: #0f172a;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* list inside advice */
+.advice-text ul {
+  padding-left: 18px;
+  margin: 0;
+}
+.advice-text li {
+  margin-bottom: 8px;
+}
+
+/* link to dashboard */
+.more-link-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+.more-link {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+.more-link:hover {
+  text-decoration: underline;
+}

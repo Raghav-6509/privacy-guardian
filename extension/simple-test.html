@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Extension Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        button { padding: 10px; margin: 5px; background: #007cba; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        .result { background: #f0f0f0; padding: 10px; margin: 10px 0; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Simple Extension Test</h1>
+    <p>This tests basic Chrome extension APIs without background script.</p>
+    
+    <button id="testStorage">Test Storage API</button>
+    <button id="testTabs">Test Tabs API</button>
+    <button id="testCookies">Test Cookies API</button>
+    <button id="testBrowsingData">Test Browsing Data API</button>
+    
+    <div id="results" class="result">Results will appear here...</div>
+
+    <script src="simple-test.js"></script>
+</body>
+</html>

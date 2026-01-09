@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Privacy Guardian",
+  "version": "1.0",
+  "description": "Scans your browser for cookies, trackers, and permissions to assess your privacy risk.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+  },
+  "permissions": ["cookies", "storage", "tabs", "activeTab", "scripting", "notifications", "webRequest", "webRequestBlocking", "browsingData"],
+  "host_permissions": ["<all_urls>"],
+  "web_accessible_resources": [{
+    "resources": ["alert.html", "debug.html", "debug.js", "simple-test.html", "simple-test.js"],
+    "matches": ["<all_urls>"]
+  }]
+}
